@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T15:34:29.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="EdTOMg0qn7rftx1zCVtT" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T15:35:57.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="dnV-wRwZ9al0MwQDz7-N" version="16.1.4" type="github">
   <diagram id="x14c-JDdzsFpI21WEJMu" name="Page-1">
     <mxGraphModel dx="1117" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,12 @@
         </mxCell>
         <mxCell id="DPjjiA5ITNXRIr7k10Rs-28" value="平均时间复杂度&lt;br&gt;插入尾部 O(1)，倒数第1个位置 O(2)，依次类推 1、2、3、n&lt;br&gt;(1 + 2 + 3 + ... + n) / n&lt;br&gt;= n(n + 1) / 2n&lt;br&gt;= (n + 1) / 2&lt;br&gt;去掉常数 1&lt;br&gt;= n / 2&lt;br&gt;去掉系数 2&lt;br&gt;= n -&amp;gt; O(n)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="540" y="750" width="470" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DPjjiA5ITNXRIr7k10Rs-29" value="search&lt;br&gt;head -&amp;gt; O(n)&lt;br&gt;tail -&amp;gt; O(1)&lt;br&gt;middle -&amp;gt; O(n)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="970" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DPjjiA5ITNXRIr7k10Rs-30" value="平均时间复杂度&lt;br&gt;插入尾部 O(1)，倒数第1个位置 O(2)，依次类推 1、2、3、n&lt;br&gt;(1 + 2 + 3 + ... + n) / n&lt;br&gt;= n(n + 1) / 2n&lt;br&gt;= (n + 1) / 2&lt;br&gt;去掉常数 1&lt;br&gt;= n / 2&lt;br&gt;去掉系数 2&lt;br&gt;= n -&amp;gt; O(n)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1170" width="470" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
