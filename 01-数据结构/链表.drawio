@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-08T16:01:17.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="VOJjLvmU1bgFP5xvAI61" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-08T16:10:27.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="OeO5yJ7bKP9kaK9YqpmQ" version="16.2.4" type="github" pages="4">
   <diagram id="ZPF3tHY2ULWxmhOBvN_I" name="链表定义">
     <mxGraphModel dx="920" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,6 +198,59 @@
         </mxCell>
         <mxCell id="d_h0CIh6DB-rsdrrSrW0-18" value="约瑟夫环" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="sJMTGjnkV8q2SkJf4nmt-1">
           <mxGeometry x="640" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hp9cf55CVnjiIKFsncaG" name="哨兵节点">
+    <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="NAN4-dAEcoVMtLomgkPK-0" />
+        <mxCell id="NAN4-dAEcoVMtLomgkPK-1" parent="NAN4-dAEcoVMtLomgkPK-0" />
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-0" value="-1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="80" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NAN4-dAEcoVMtLomgkPK-1" source="oQnBXUSa9JEGR1TLYtKq-2" target="oQnBXUSa9JEGR1TLYtKq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-2" value="next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="130" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-3" value="哨兵 节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="100" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-4" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="250" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NAN4-dAEcoVMtLomgkPK-1" source="oQnBXUSa9JEGR1TLYtKq-6" target="oQnBXUSa9JEGR1TLYtKq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-6" value="next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="300" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-7" value="Node 节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="270" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-8" value="2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="420" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NAN4-dAEcoVMtLomgkPK-1" source="oQnBXUSa9JEGR1TLYtKq-10" target="oQnBXUSa9JEGR1TLYtKq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-10" value="next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="470" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-11" value="Node 节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="440" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-12" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="590" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-13" value="next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="640" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oQnBXUSa9JEGR1TLYtKq-14" value="Node 节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="NAN4-dAEcoVMtLomgkPK-1">
+          <mxGeometry x="610" y="190" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
