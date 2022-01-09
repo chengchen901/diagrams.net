@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-09T07:51:59.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="LAZF_Rl01ks0XlOyHU24" version="16.2.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-09T07:52:26.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="HWKRuTpRL3c8vGolDjpP" version="16.2.4" type="github" pages="5">
   <diagram id="ZPF3tHY2ULWxmhOBvN_I" name="链表定义">
     <mxGraphModel dx="782" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,6 +343,27 @@
         </mxCell>
         <mxCell id="ZbZ6okObxQHdnhGg85SW-29" value="第3轮6号出局，从1号开始报数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
           <mxGeometry x="30" y="535" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-30" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="160" y="700" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-31" value="2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="240" y="700" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-32" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="324" y="700" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-33" value="4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="404" y="700" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-34" value="5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="480" y="700" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-35" value="6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="560" y="700" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbZ6okObxQHdnhGg85SW-36" value="第3轮2号出局，从3号开始报数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZbZ6okObxQHdnhGg85SW-1">
+          <mxGeometry x="30" y="660" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
